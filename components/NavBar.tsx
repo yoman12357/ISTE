@@ -30,12 +30,13 @@ export default function NavBar() {
         </Link>
 
         <div className="font-sans text-sm font-semibold gap-6 flex">
-          <Link href={"/"} className="hover:text-primary transition-colors">Home</Link>
-          <Link href={"/#about"} className="hover:text-primary transition-colors">About</Link>
-          <Link href={"/#sigs"} className="hover:text-primary transition-colors">SIGs</Link>
-          <Link href={"/team"} className="hover:text-primary transition-colors">Team</Link>
-          <Link href={"/#events"} className="hover:text-primary transition-colors">Events</Link>
-          <Link href={"/#contact"} className="hover:text-primary transition-colors">Contact</Link>
+          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+          <Link href="/#about" className="hover:text-primary transition-colors">About</Link>
+          <Link href="/#sigs" className="hover:text-primary transition-colors">SIGs</Link>
+          <Link href="/projects" className="hover:text-primary transition-colors">Projects</Link>
+          <Link href="/team" className="hover:text-primary transition-colors">Team</Link>
+          <Link href="/#events" className="hover:text-primary transition-colors">Events</Link>
+          <Link href="/#contact" className="hover:text-primary transition-colors">Contact</Link>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 "use client";
-import { adminCore, auxCore, executiveCore, memberDetails } from "@/components/data"
+import { adminCore, auxCore, executiveCore } from "@/components/data"
 import SpecialCard from "@/components/FacAd";
 import MemberCard, { Member } from "@/components/MemberCard"
 import { useState } from "react"
